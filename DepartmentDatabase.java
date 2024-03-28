@@ -10,7 +10,7 @@ public class DepartmentDatabase {
     public static void main(String[] args) {
         try {
             // Connect to the database
-            Connection conn = DriverManager.getConnection("jdbc:mysql//localhost:3306/datavalley","root","9948");
+            Connection conn = DriverManager.getConnection("jdbc:mysql//localhost:3306/datavalley","root"," ");
 
             // Create a Department object
             Department dept = new Department(101, "Software Engineering");
